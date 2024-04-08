@@ -1,3 +1,4 @@
+import Images from "./images/logo_(1).png";
 function ic(e, t) {
   for (var n = 0; n < t.length; n++) {
     const r = t[n];
@@ -12267,7 +12268,7 @@ const nn = ({
           className: "logo",
           children: h.jsx(fn, {
             to: "/",
-            children: h.jsx("img", { src: "./logo (1).png", alt: "ReworkAi" }),
+            children: h.jsx("img", { src: Images, alt: "ReworkAi" }),
           }),
         }),
         h.jsxs("ul", {
