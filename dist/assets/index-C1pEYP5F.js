@@ -12267,7 +12267,10 @@ const nn = ({
           className: "logo",
           children: h.jsx(fn, {
             to: "/",
-            children: h.jsx("img", { src: "../logo (1).png", alt: "ReworkAi" }),
+            children: h.jsx("img", {
+              src: "../../src/assets/logo (1).png",
+              alt: "ReworkAi",
+            }),
           }),
         }),
         h.jsxs("ul", {
@@ -12668,7 +12671,10 @@ const ko = ({
         text: "Receive pre-vetted profiles within 48 hours",
       },
       { img: "../Vector (4).png", text: "Dedicated account manager" },
-      { img: "../Vector (4).png", text: "Assistance with interview scheduling" },
+      {
+        img: "../Vector (4).png",
+        text: "Assistance with interview scheduling",
+      },
       { img: "../Vector (4).png", text: "Custom reports" },
     ];
     return h.jsxs("section", {
