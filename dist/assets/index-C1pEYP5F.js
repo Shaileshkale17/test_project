@@ -12267,7 +12267,7 @@ const nn = ({
           className: "logo",
           children: h.jsx(fn, {
             to: "/",
-            children: h.jsx("img", { src: "./logo (1).png", alt: "ReworkAi" }),
+            children: h.jsx("img", { src: "./images/logo_(1).png", alt: "ReworkAi" }),
           }),
         }),
         h.jsxs("ul", {
